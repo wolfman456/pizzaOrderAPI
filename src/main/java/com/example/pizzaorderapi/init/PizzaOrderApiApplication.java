@@ -1,4 +1,4 @@
-package com.example.pizzaorderapi;
+package com.example.pizzaorderapi.init;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
