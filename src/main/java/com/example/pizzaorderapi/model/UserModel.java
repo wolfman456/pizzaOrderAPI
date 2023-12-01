@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -19,5 +21,7 @@ public class UserModel {
     String name;
     String email;
     String phone;
+    @OneToMany
+    List<OrderModel> orderList;
 
 }
